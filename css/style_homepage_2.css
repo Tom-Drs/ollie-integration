@@ -1,0 +1,19 @@
+
+.wrap {
+    display: flex;
+    max-width: 1216px;
+}
+
+header.left-header {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+header.list-nav {
+    display: flex;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
