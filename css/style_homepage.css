@@ -22,6 +22,8 @@
     font-size: 16px;
     color: #999FAE;
     width: 150%;
+    display: flex;
+    justify-content: center;
 }
 
 .homepage {
@@ -29,6 +31,7 @@
     font-weight: lighter;
     border-bottom: solid #5956E9 2px;
     padding-bottom: 6px;
+
 }
 
 .logo-text {
@@ -45,11 +48,13 @@
     color: #5956E9;
     align-self: center;
     font-weight: bold;
+    margin-right: 10%;
+
 }
 
 .nav-page {
     list-style-type: none;
-    display: inline;
+    /*display: inline;*/
     margin-right: 10%;
 }
 
@@ -93,4 +98,24 @@
 
 header {
     margin-top: 1%;
+}
+
+/*--------- Section 1 ---------*/
+
+.section1 {
+    /*background-color: red;*/
+    height: 91vh;
+    margin-top: 7%;
+}
+
+section .container-sec-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 79px;
+
 }
